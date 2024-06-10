@@ -49,7 +49,7 @@ const Work = () => {
               fontSize: "20px",
               fontWeight: "400",
               lineHeight: "30px",
-              width: { sx: "613px", md: "500px" },
+              width: "75%",
               textAlign: "center",
             }}
           >
@@ -93,7 +93,7 @@ const Work = () => {
           alt="bg"
           src={bg}
           variant="rounded"
-          sx={{ width: "100%", height: "100%", marginTop: 5 }}
+          sx={{ width: "auto", height: "auto", marginTop: 5 }}
         />
       </Box>
     </>

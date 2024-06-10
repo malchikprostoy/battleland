@@ -1,5 +1,6 @@
 import React from "react";
 import GoogleMapReact from "google-map-react";
+import { Box } from "@mui/material";
 
 export default function Map() {
   const defaultProps = {
@@ -11,12 +12,12 @@ export default function Map() {
   };
 
   return (
-    <div style={{ height: "100vh", width: "100%", marginTop: "160px" }}>
+    <Box sx={{ height: "100vh", width: "100%", marginTop: "160px" }}>
       <GoogleMapReact
         bootstrapURLKeys={{ key: "" }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
       ></GoogleMapReact>
-    </div>
+    </Box>
   );
 }

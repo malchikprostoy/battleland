@@ -16,14 +16,16 @@ const Testimonial = () => {
           justifyContent: "center",
           gap: "60px",
           marginTop: "160px",
+          paddingX: { xs: 2, md: 0 }, // Padding for small screens
         }}
       >
         <Typography
           sx={{
             fontWeight: "400",
-            fontSize: "52px",
-            lineHeight: "62px",
+            fontSize: { xs: "32px", sm: "40px", md: "52px" },
+            lineHeight: { xs: "42px", sm: "50px", md: "62px" },
             color: "#fff",
+            textAlign: "center", // Center align text for better appearance
           }}
         >
           Testimonials
@@ -53,7 +55,7 @@ const Testimonial = () => {
                 gap: "30px",
                 border: "1px solid #5C5C5C",
                 borderRadius: "10px",
-                width: "430px",
+                width: { xs: "100%", sm: "430px" }, // Full width on small screens
                 padding: "40px",
               }}
             >
@@ -114,7 +116,7 @@ const Testimonial = () => {
                 gap: "30px",
                 border: "1px solid #5C5C5C",
                 borderRadius: "10px",
-                width: "430px",
+                width: { xs: "100%", sm: "430px" }, // Full width on small screens
                 padding: "40px",
               }}
             >
@@ -183,7 +185,7 @@ const Testimonial = () => {
                 gap: "30px",
                 border: "1px solid #5C5C5C",
                 borderRadius: "10px",
-                width: "430px",
+                width: { xs: "100%", sm: "430px" }, // Full width on small screens
                 height: "256px",
                 padding: "40px",
               }}
@@ -244,7 +246,7 @@ const Testimonial = () => {
                 gap: "30px",
                 border: "1px solid #5C5C5C",
                 borderRadius: "10px",
-                width: "430px",
+                width: { xs: "100%", sm: "430px" }, // Full width on small screens
                 padding: "40px",
               }}
             >
